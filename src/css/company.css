@@ -1,0 +1,59 @@
+:root {
+  --fontSize: 1rem;
+  --mainColor: #12345678;
+  --highlightColor: hwb(190, 35%, 20%);
+}
+#company-banner {
+  background-color: var(--mainColor);
+  font-size: 55px;
+}
+#company-banner-notice .graphic {
+  width: 115px;
+  height: 90px;
+  background: url("../image003.png") center center no-repeat;
+  z-index: 25;
+  background-size: 100%;
+}
+@media only screen and (max-width: 64em) {
+  /* max-width 640px, mobile/medium styles, use when QAing mobile issues */
+  #sidebar {
+    display: none;
+  }
+  .page-host {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* min-width 1025px, large screens */
+  .page-host {
+    margin-left: 210px;
+  }
+}
+#sidebar {
+  box-sizing: border-box;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 135;
+  width: 210px;
+  background: #333333;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+#sidebar a {
+  color: #ffffff;
+}
+canvas {
+  width: 100% !important;
+  max-width: 1200px;
+  height: 200px !important;
+}
+.fullWidth {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: none !important;
+}
+.topRow {
+  margin-top: 40px !important;
+}

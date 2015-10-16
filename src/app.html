@@ -1,0 +1,15 @@
+<template>
+  <require from="nav-bar.html"></require>
+  <require from='side-bar.html'></require>
+
+  <header id="company-banner">
+    <a href="http://www.seadragon.se" id="company-banner-notice">
+      <div class="graphic"></div>
+    </a>
+  </header>
+  <nav-bar></nav-bar>
+  <side-bar router.bind="router"></side-bar>
+  <div class="page-host">
+    <router-view></router-view>
+  </div>
+</template>
