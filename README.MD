@@ -1,17 +1,20 @@
 aurelia-skeleton-tf
+--------------------------
 
 This skeleton is a modification of the Aurelia skeleton.
 
---==modifications==--
+Modifications
+----------------
 Bootstrap is replaced by Foundation
 
-
---======added======--
+Added
+----------------------
 typescript support
 postcss with nextcss and autoprefixer
 
 
---======To Do======--
+Todo
+---------------------------
 Testing with karma
 
 
