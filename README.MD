@@ -7,13 +7,15 @@ This skeleton is a modification of the Aurelia skeleton.
 
 ##Added
   typescript support.
-  postcss with nextcss and autoprefixer.
 
+  postcss with nextcss and autoprefixer.
+  
 ##Todo
   Testing with karma.
 
 
 ##Information below is borrowed from the official Aurelia skeleton. Same installation applies
+
 # aurelia-skeleton-navigation
 
 > To keep up to date on [Aurelia](http://www.aurelia.io/), please visit and subscribe to [the official blog](http://blog.durandal.io/). If you have questions, we invite you to [join us on Gitter](https://gitter.im/aurelia/discuss). If you would like to have deeper insight into our development process, please install the [ZenHub](https://zenhub.io) Chrome Extension and visit any of our repository's boards. You can get an overview of all Aurelia work by visiting [the framework board](https://github.com/aurelia/framework#boards).
