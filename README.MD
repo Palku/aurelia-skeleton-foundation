@@ -4,16 +4,16 @@ This skeleton is a modification of the Aurelia skeleton.
 
 --==modifications==--
 Bootstrap is replaced by Foundation
---==modifications==--
+
 
 --======added======--
 typescript support
 postcss with nextcss and autoprefixer
---======added======--
+
 
 --======To Do======--
 Testing with karma
---======To Do======--
+
 
 Information below is borrowed from the official Aurelia skeleton. Same installation applies
 -------------------------------------------------------------------------------------------------------------
